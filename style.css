@@ -1,0 +1,136 @@
+body {
+    background-image: url(cover.jpg);
+    background-repeat: no-repeat;
+
+    background-size: contain;
+    ;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(56, 146, 224);
+
+}
+
+.navbar {
+    background-color: rgb(31, 28, 28);
+    display: flex;
+    margin-bottom: 50px;
+    padding-bottom: 10px;
+    margin: 10px 20px 20px 20px
+}
+
+.navbar ul {
+    background-color: whitesmoke;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    animation: color 3s;
+}
+
+
+.navbar li:hover {
+    transform: translateY(-5px);
+    transition: .1s ease;
+    color: aliceblue;
+    font-size: 22px
+}
+
+.form {
+
+    width: 200px;
+    padding: 10;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+button {
+    margin-top: 10px;
+    width: 100px;
+    height: 35px;
+    font-size: 25px;
+    background-color: blanchedalmond;
+    border-radius: 20px;
+    border: solid black 2px;
+    
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(39, 24, 5);
+    height: 100vh;
+    font-size: 30px;
+
+}
+
+.msg label {
+    margin-top: 10px;
+
+}
+
+.msg input {
+    margin-top: 10px;
+
+}
+
+.msg textarea {
+
+    margin-top: 10px;
+}
+
+.table {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+   
+    background-color: rgb(156, 156, 114);
+
+}
+
+.table{
+background-repeat: no-repeat;
+background-size: cover;
+background-image: url(cover.jpg);
+color: whitesmoke;
+}
+
+.aboutme {
+    display: inline-flex;
+    color: rgb(175, 22, 22);
+}
+
+.aboutme2 {
+    align-items: center;
+    width: 50%;
+
+}
+
+.aboutme3 {
+    width: 50%;
+}
+
+details {
+    font-size: 30px;
+
+}
+
+summary {
+    background-color: darkgray;
+}
+
+@keyframes color {
+    0% {
+        color: rgb(156, 156, 114);
+         
+    }
+    100%{
+        color:black;
+    }
+}
